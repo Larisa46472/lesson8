@@ -1,6 +1,7 @@
-/*@font-face {
-    font-family:"rial-BoldMT";
-    src:url("../fonts/ofont.ru_Arial.ttf"}*/
+@font-face {
+    font-family:"Arial-BoldMT" ;
+    src: url(../fonts/ofont.ru_Arial.ttf);
+}
 * {
     /*включить измерение элементов от рамки*/
     box-sizing: border-box;
@@ -22,8 +23,8 @@
     border: none;
     display: flex;
     position: relative;
-    /*margin-top: auto;
-    margin-left: auto;*/
+       
+
 }
 .box-midle { 
     background-color:white;
@@ -35,7 +36,7 @@
     height:504px;
    margin-top: 86px;
    
-   
+  
     
 }
 
@@ -57,15 +58,17 @@
     Width: 178px;
     Height: 22px;
     color:  #2F2F2F;
-    /*font-Family:"Arial-BoldMT";*/
-    font-size: 24px;
+    font-Family:"Arial-BoldMT";
+    font-size: 22px;
     text-align:left;
+  
     
     
 }
 .description {
         color: #2F2F2F;	
-    /*font-Family: "ArialMT";*/
+     
+    font-Family: "ArialMT";
     font-size: 14px;
     margin-top: 30px;
     margin-left: 524px;
@@ -77,30 +80,31 @@
 margin-top: 55px;
 margin-left: 524px;
 Width:35px;
-Height:14;
+Height:14px;
 opacity:1px;	
 color:#2F2F2F;
-/*font-Family	:"ArialMT";*/
+font-Family	:"ArialMT";
+
 font-size: 14px;
 text-Align	:left;
 }
 .price{
 margin-top: 15px;
 margin-left: 524px;
-Width:103;
-Height	:28;
+Width:103px;
+Height	:28px;
 opacity	:1;
 color: #2F2F2F;	
-/*font-Family	:"ArialMT";*/
-font-size: 48px;;
+font-Family	:"ArialMT";
+font-size: 28px;;
 text-Align:left;
 }
 
 .button{
-margin-top: 37px;
+margin-top: 55px;
 margin-left: 100px;
-width: 253;;
-height: 53;;
+width: 253px;
+height: 53px;
 opacity	:1;
 background-color: #EC744A;
 
