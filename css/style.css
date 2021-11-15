@@ -14,18 +14,15 @@
     display: flex;
     justify-content: space-between;
 }*/
-
-.box-max {
+body {
     width: 1200px;
     height: 675px;
-    background-color: rgb (246, 246, 246);
     background-color:white;
     border: none;
-    display: flex;
+    /*display: flex;*/
     position: relative;
-       
-
 }
+   
 .box-midle { 
     background-color:white;
     border: none;
@@ -48,6 +45,7 @@
     background-color: white;
     border: none;
     float: left;
+    
     margin-top: 65px;
     margin-left: 49px;
 
@@ -81,7 +79,7 @@ margin-top: 55px;
 margin-left: 524px;
 Width:35px;
 Height:14px;
-opacity:1px;	
+/*opacity:1;	*/
 color:#2F2F2F;
 font-Family	:"ArialMT";
 
@@ -93,7 +91,7 @@ margin-top: 15px;
 margin-left: 524px;
 Width:103px;
 Height	:28px;
-opacity	:1;
+/*opacity	:1;*/
 color: #2F2F2F;	
 font-Family	:"ArialMT";
 font-size: 28px;;
@@ -105,7 +103,7 @@ margin-top: 55px;
 margin-left: 100px;
 width: 253px;
 height: 53px;
-opacity	:1;
+/*opacity	:1;*/
 background-color: #EC744A;
 
 
